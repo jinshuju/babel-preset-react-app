@@ -79,7 +79,7 @@ module.exports = function (api, opts, env) {
         // Latest stable ECMAScript features
         require('@babel/preset-env').default,
         {
-          target: {
+          targets: {
             chrome: 56,
             firefox: 52,
             safari: 8
