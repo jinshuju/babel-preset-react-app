@@ -82,7 +82,8 @@ module.exports = function (api, opts, env) {
           targets: {
             chrome: 56,
             firefox: 52,
-            safari: 8
+            safari: 8,
+            ie: 9
           },
           // Allow importing core-js in entrypoint and use browserlist to select polyfills
           useBuiltIns: 'usage',
