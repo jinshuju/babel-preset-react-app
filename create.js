@@ -80,7 +80,7 @@ module.exports = function (api, opts, env) {
         require('@babel/preset-env').default,
         {
           targets: {
-            chrome: 56,
+            chrome: 50,
             firefox: 52,
             safari: 8,
             ie: 9
